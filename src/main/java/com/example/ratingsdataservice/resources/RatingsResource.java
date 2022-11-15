@@ -11,7 +11,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @RestController
-@RequestMapping("/ratingsdata")
+@RequestMapping("/ratings-data")
 public class RatingsResource {
 
     @RequestMapping("/{movieId}")
